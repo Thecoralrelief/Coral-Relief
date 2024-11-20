@@ -5,6 +5,48 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+/* Estilos generales para móviles */
+@media (max-width: 768px) {
+  .why_section .why_container p {
+    font-size: 12px; /* Reduce el tamaño de fuente */
+    line-height: 1.5; /* Ajusta el interlineado */
+    text-align: justify; /* Justifica el texto para mejor visualización */
+  }
+
+  .why_section .heading_container h2 {
+    font-size: 18px; /* Ajusta el tamaño del título */
+    line-height: 1.3;
+  }
+
+  .why_section .container {
+    padding: 10px; /* Reduce el padding para pantallas pequeñas */
+  }
+}
+.why_section .container {
+  max-width: 1200px; /* Define un ancho máximo para pantallas grandes */
+  margin: 0 auto; /* Centra el contenedor */
+  padding: 0 15px; /* Añade padding para evitar que el contenido toque los bordes */
+}
+
+.why_section .why_container p {
+  word-wrap: break-word; /* Evita que palabras largas rompan el diseño */
+  overflow-wrap: break-word; /* Compatibilidad adicional para navegadores */
+}
+.why_section p {
+  max-width: 100%; /* Asegura que el texto no exceda el ancho del contenedor */
+  margin: 0 auto; /* Centra el texto */
+  overflow: hidden; /* Oculta cualquier contenido que exceda los límites */
+  text-align: justify; /* Opcional: ajusta la alineación del texto */
+}
+.why_section .why_container {
+  padding: 20px 15px; /* Ajusta el padding para evitar desbordamientos */
+}
+
+.why_section .why_container p {
+  margin: 0; /* Asegúrate de que el margen no sea demasiado grande */
+}
+
+
 
 .layout_padding {
   padding: 90px 0;
